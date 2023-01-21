@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v4.xsd">
+	
+	<guid>710CCB2C-7EA6-4B35-8800-342699180BDA</guid>
+	<name>Web Tab</name>
+	<version>0.1</version>
+	<description>Web tab</description>
+	<publisher>ArMedia CG</publisher>
+	<copyright>(c) Copyright ArMedia CG, 2023</copyright>
+	<required-mfiles-version>20.12.0.0</required-mfiles-version>
+	<enabled-by-default>true</enabled-by-default>
+	<platforms>
+		<platform>Web</platform>
+		<platform>Desktop</platform>
+	</platforms>
+	<modules>
+		<module environment="shellui" fast-browsing-compatible="true">
+			<file>main.js</file>
+		</module>
+	</modules>
+	<dashboards>
+		<dashboard id="tab-web">
+			<content>tab.html</content>
+			<allow-selection>true</allow-selection>
+		</dashboard>
+	</dashboards>
+</application>
